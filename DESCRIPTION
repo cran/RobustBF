@@ -1,7 +1,7 @@
 Package: RobustBF
 Type: Package
 Title: Robust Solution to the Behrens-Fisher Problem
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: c(person("Gamze", "Guven", role = c("aut", "cre"),
                      email = "gamzeguven@ogu.edu.tr"),
               person("Sukru", "Acitas", role = c("aut"),
@@ -20,6 +20,6 @@ License: GPL (>= 3)
 Imports: stats
 Encoding: UTF-8
 NeedsCompilation: no
-Packaged: 2021-06-30 09:55:40 UTC; sukruacitas
+Packaged: 2021-11-15 13:38:56 UTC; sukruacitas
 Repository: CRAN
-Date/Publication: 2021-07-01 07:30:16 UTC
+Date/Publication: 2021-11-15 14:00:02 UTC

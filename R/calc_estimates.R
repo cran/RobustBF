@@ -1,8 +1,8 @@
 calc_estimates <- function(y1,y2){
   n <- c(length(y1),length(y2))
-  bar_y=c(mean(y1),mean(y2))
-  sd_LS=c(sd(y1),sd(y2))
-  N=sum(n);
+  bar_y <- c(mean(y1),mean(y2))
+  sd_LS <- c(sd(y1),sd(y2))
+  N <- sum(n);
   T0 <- c(median(y1),median(y2))
   S0 <- c(1.483*median(abs(y1-T0[1])), 1.483*median(abs(y2-T0[2])))
   t_ij <- c((y1-T0[1])/S0[1],(y2-T0[2])/S0[2])
